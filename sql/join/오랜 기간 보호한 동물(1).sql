@@ -1,0 +1,10 @@
+# JOIN lv3
+# https://school.programmers.co.kr/learn/courses/30/lessons/59044
+
+SELECT A_INS.NAME, A_INS.DATETIME
+FROM ANIMAL_INS as A_INS
+LEFT JOIN ANIMAL_OUTS as A_OUTS
+ON A_INS.ANIMAL_ID = A_OUTS.ANIMAL_ID
+WHERE A_OUTS.ANIMAL_ID is null
+order by A_INS.DATETIME
+limit 3;
