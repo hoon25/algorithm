@@ -3,7 +3,7 @@ package sort;
 /*
 선택 정렬
 - 제자리 정렬(in-place sort)
-- 불안전 정렬
+- 불안정 정렬
  */
 public class SelectionSort {
 

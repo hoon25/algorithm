@@ -5,7 +5,7 @@ import java.util.Arrays;
 /*
 삽입정렬
 - 제자리 정렬(in-place sort)
-- 안전 정렬
+- 안정 정렬
  */
 public class InsertionSort {
 
