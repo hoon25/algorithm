@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.PriorityQueue;
 
 /**
+ * 우선순위 큐로 풀음
  * Commit Offset
  * <p>
  * offset 값으로 이루어진 배열이 주어집니다. offset은 0 이상의 정수이며 중복은 없습니다.
